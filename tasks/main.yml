@@ -1,2 +1,5 @@
 ---
 # tasks file for test-role
+- name: a task in test-role
+  debug:
+    msg: This is version 1
